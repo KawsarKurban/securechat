@@ -31,7 +31,7 @@ while True:
     if data == "Client: OK":
         c.send("public_key=" + public_key.exportKey() + "\n")
         print "Public key sent to client."
-    
+    ##
     elif encrypt_str in data:
         data = data.replace(encrypt_str, '')
         print "Received:\nEncrypted message = "+str(data)
