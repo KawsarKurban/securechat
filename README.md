@@ -1,3 +1,3 @@
 # securechat
-Secure globle chatting platform encrypted with AES
+Secure globle encrypted chatting platform
 Copyright blongs to KawsarKurban .
