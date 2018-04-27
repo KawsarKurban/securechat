@@ -7,8 +7,8 @@ private_key = RSA.generate(4096, random_generator)
 public_key = private_key.publickey()
 
 s = socket.socket()
-host = "10.0.42.182"
-port = 4032
+host = "XXX.XXX.XXX.XXX"
+port = XXXX
 encrypt_str = "encrypted_message="
 
 if host == "127.0.0.1":
