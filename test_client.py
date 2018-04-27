@@ -1,3 +1,4 @@
+# OH YEAHH 
 import socket
 from Crypto.PublicKey import RSA
 
@@ -31,7 +32,7 @@ server_response = server_response.replace("\r\n", '')
 if server_response == "Server: OK":
     print "Server decrypted message successfully"
 
-#Tell server to finish connection
+#Tell server to finish connection 
 server.sendall("Quit")
 print(server.recv(1024)) #Quit server response
 server.close()
