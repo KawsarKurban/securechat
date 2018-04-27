@@ -3,8 +3,8 @@ import socket
 from Crypto.PublicKey import RSA
 
 server = socket.socket()
-host = "10.0.42.182"
-port = 4032
+host = "XXX.XXX.XXX.XXX"
+port = XXXX
 
 server.connect((host, port))
 
